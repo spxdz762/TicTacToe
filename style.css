@@ -1,0 +1,28 @@
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 72px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: white;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 24px
+}
